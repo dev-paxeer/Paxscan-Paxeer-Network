@@ -1,0 +1,37 @@
+{
+  "apps": [
+    {
+      "id": "pax-dex",
+      "title": "PAX DEX",
+      "description": "Trade PAX tokens and other assets on our decentralized exchange",
+      "url": "https://dex.paxeer.app",
+      "external": true,
+      "logo": "https://storage.googleapis.com/conduit-prd-apps-web-cdn/paxeer-network-djjz47ii4b-b9823b7f-e867-44ff-8ff1-631e8d36f505.png",
+      "categories": ["defi", "trading"],
+      "featured": true,
+      "shortDescription": "Decentralized Exchange"
+    },
+    {
+      "id": "pax-wallet", 
+      "title": "PAX Wallet",
+      "description": "Secure wallet for storing and managing your PAX tokens",
+      "url": "https://wallet.paxeer.app",
+      "external": true,
+      "logo": "https://storage.googleapis.com/conduit-prd-apps-web-cdn/paxeer-network-djjz47ii4b-b9823b7f-e867-44ff-8ff1-631e8d36f505.png",
+      "categories": ["wallet", "security"],
+      "featured": true,
+      "shortDescription": "Official PAX Wallet"
+    },
+    {
+      "id": "pax-bridge",
+      "title": "PAX Bridge", 
+      "description": "Bridge assets to and from Paxeer Network",
+      "url": "https://bridge.paxeer.app",
+      "external": true,
+      "logo": "https://storage.googleapis.com/conduit-prd-apps-web-cdn/paxeer-network-djjz47ii4b-b9823b7f-e867-44ff-8ff1-631e8d36f505.png",
+      "categories": ["bridge", "interoperability"],
+      "featured": true,
+      "shortDescription": "Cross-chain Bridge"
+    }
+  ]
+}

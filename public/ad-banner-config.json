@@ -1,0 +1,42 @@
+{
+  "banners": [
+    {
+      "id": "pax-token-promo",
+      "title": "Get PAX Token Now!",
+      "description": "Trade PAX tokens on our DEX with low fees and high liquidity",
+      "image": "https://raw.githubusercontent.com/Paxeer-Network/Paxeer-brand-assets/refs/heads/main/UI%20Illustration%20color/Untitled%20design%20(1).png",
+      "url": "https://dex.paxeer.app/swap?token=PAX",
+      "cta": "Trade Now",
+      "active": true,
+      "priority": 1
+    },
+    {
+      "id": "wallet-promotion",
+      "title": "Secure Your PAX Tokens",
+      "description": "Download the official PAX Wallet for secure storage and easy transactions",
+      "image": "https://github.com/Paxeer-Network/Paxeer-brand-assets/blob/main/pax_green_banner.webp?raw=true", 
+      "url": "https://wallet.paxeer.app",
+      "cta": "Download Wallet",
+      "active": true,
+      "priority": 2
+    },
+    {
+      "id": "bridge-assets",
+      "title": "Bridge to Paxeer Network",
+      "description": "Move your assets to Paxeer Network for faster, cheaper transactions",
+      "image": "https://storage.googleapis.com/conduit-prd-apps-web-cdn/paxeer-network-djjz47ii4b-1ba87699-767c-4487-97da-75be29e7554a.png",
+      "url": "https://bridge.paxeer.app", 
+      "cta": "Bridge Now",
+      "active": true,
+      "priority": 3
+    }
+  ],
+  "rotation": {
+    "enabled": true,
+    "interval": 10000
+  },
+  "targeting": {
+    "pages": ["home", "token", "address"],
+    "exclude": []
+  }
+}
