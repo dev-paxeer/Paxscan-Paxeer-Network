@@ -47,6 +47,10 @@ export function app(): CspDev.DirectiveDescriptor {
       `https://${ config.app.host }:8080`,
       `wss://${ config.app.host }:8080`,
 
+      // Backend API domain
+      'https://paxscan.paxeer.app',
+      'wss://paxscan.paxeer.app',
+
       // chain RPC server
       ...config.chain.rpcUrls,
       ...(getFeaturePayload(config.features.rollup)?.parentChain?.rpcUrls ?? []),
