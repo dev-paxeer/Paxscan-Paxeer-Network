@@ -43,13 +43,22 @@ export function app(): CspDev.DirectiveDescriptor {
       ...Object.values(config.apis).filter(Boolean).map((api) => api.endpoint),
       ...Object.values(config.apis).filter(Boolean).map((api) => api.socketEndpoint),
 
-      // Add port 8080 for stats API (nginx serves stats on this port)
-      `https://${ config.app.host }:8080`,
-      `wss://${ config.app.host }:8080`,
+      // Add port 8080 for stats API (nginx serves stats on this port) - only if host is defined
+      config.app.host ? `https://${ config.app.host }:8080` : '',
+      config.app.host ? `wss://${ config.app.host }:8080` : '',
 
       // Backend API domain
       'https://paxscan.paxeer.app',
       'wss://paxscan.paxeer.app',
+
+      // RPC endpoints
+      'https://rpc-paxeer-network-djjz47ii4b.t.conduit.xyz',
+
+      // BENS service
+      'https://bens-rs-test.k8s-dev.blockscout.com',
+
+      // Monaco Editor CDN
+      'https://cdn.jsdelivr.net',
 
       // chain RPC server
       ...config.chain.rpcUrls,
