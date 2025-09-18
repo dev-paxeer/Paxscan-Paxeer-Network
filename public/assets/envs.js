@@ -19,7 +19,7 @@ window.__envs = {
     NEXT_PUBLIC_NETWORK_CURRENCY_NAME: "PAXEER",
     NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL: "PAX",
     NEXT_PUBLIC_NETWORK_CURRENCY_DECIMALS: "18",
-    NEXT_PUBLIC_NETWORK_RPC_URL: "https://rpc-paxeer-network-djjz47ii4b.t.conduit.xyz/DgdWRnqiV7UGiMR2s9JPMqto415SW9tNG",
+    NEXT_PUBLIC_NETWORK_RPC_URL: "https://v1-rpc.paxeer.app",
     NEXT_PUBLIC_NETWORK_LOGO: "https://storage.googleapis.com/conduit-prd-apps-web-cdn/paxeer-network-djjz47ii4b-8ce4648c-5769-4255-b7bd-d23b9a96ae7a.png",
     NEXT_PUBLIC_NETWORK_LOGO_DARK: "https://storage.googleapis.com/conduit-prd-apps-web-cdn/paxeer-network-djjz47ii4b-51f05f79-bc3f-4ea5-bb1d-8ce4a68e0076.png",
     NEXT_PUBLIC_NETWORK_ICON: "https://storage.googleapis.com/conduit-prd-apps-web-cdn/paxeer-network-djjz47ii4b-89b78053-c81f-4eba-ae52-b684b6e20090.png",
